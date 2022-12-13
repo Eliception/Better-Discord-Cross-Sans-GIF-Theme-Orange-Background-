@@ -1,0 +1,51 @@
+/**
+ * @name Cross Sans Orange
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://i.imgur.com/azX5uNl.gif');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 2px;
+  --popout: transparent;
+  --popoutsize: cover;
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 186,19,215;
+  --backdrop: rgb(0,0,0,1);
+  --textshadow: rgb(255,175,0,0);
+  --transparencyalpha: 0.5;
+  --messagetransparency: 0.5;
+  --guildchanneltransparency: 0.5;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.5;
+  --font: Rubik;
+  --textbrightest: 255,244,149;
+  --textbrighter: 255,203,70;
+  --textbright: 255,145,0;
+  --textdark: 255,0,0;
+  --textdarker: 203,14,0;
+  --textdarkest: 154,11,0;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
+
+/* Any custom CSS below here */
+
+
